@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_227_5a2049cf44f7b.jpg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_203_4e4e80357a87a.jpg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_24_5a204c814d494.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_1051_5b2f9b91510cd.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_187_4e4f7893951d9.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_18_5b9bf0b143cb9.jpg",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_1169_4e4dde45d407e.jpg",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_1394_5b3d490c172d1.jpg",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_1268_518b4ea9b40c2.jpg",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_1005_4e58a928621c8.jpg",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_209_5b3892dab4cb4.jpg",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "image": "https://www.besteveralbums.com/albumart/album_medium_30179_506ff3e0f2412.jpg",
+      "clicked": false
+    }
+  ]
