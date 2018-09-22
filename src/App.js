@@ -23,12 +23,14 @@ class App extends Component {
 //set the state
 state = {
   cards,
+  title: 'Best Ever Albums Memory Clicky Game',
   current: 0,
   top: 0,
   correct: "",
   clicked: []
 }
 
+//click handler
 handleClick = id => {
   if (this.state.clicked.indexOf(id) === -1) {
     this.handleIncrement();
@@ -39,6 +41,7 @@ handleClick = id => {
   }
 }
 
+//incremenet handler
 handleIncrement = () => {
   const Score = this.state.current + 1;
   this.setState({
@@ -55,6 +58,7 @@ handleIncrement = () => {
   this.handleShuffle();
 }
 
+//reset handler
 handleReset = () => {
   this.setState({
     current: 0,
@@ -65,12 +69,14 @@ handleReset = () => {
   this.handleShuffle();
 }
 
+
+//shuffle handler
 handleShuffle = () => {
   let shuffle = theShuffle(cards);
   this.setState({cards: shuffle});
 }
 
-
+  //render the page
   render() {
     return (
       <Wrapper>
@@ -82,7 +88,7 @@ handleShuffle = () => {
         />
 
         <Instructions>
-          Click on one of the best albums ever made and the albums will shuffle. Click again, but don't click an album that you've already chosen!
+          Click on one of these great albums and they will shuffle. Click again, but don't click an album that you've already chosen!
         </Instructions>
 
         <Container>
