@@ -5,27 +5,26 @@ nav {
     margin-bottom: 50px;
     background-color: rgb(56, 56, 56);
     height: auto;
-    font-family: 'Bungee', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  
+
   a {
-    color: #fed420;
+    color: pink;
   }
   
   a:hover {
-    color: #fed420;
+    color: yellow;
     text-decoration: none;
   }
   
   nav li {
     display: inline-block;
-    padding: 26px 0;
+    padding: 0px 0;
     width: 25%;
-    /* text-align: center; */
+
   }
   
   ul {
-    /* padding-left: 0px; */
     display: flex;
     align-items: center;
   }
@@ -35,3 +34,7 @@ nav {
       font-size: 2rem;
     }
   }
+
+ #correct {
+   margin-left: 100px;
+ }
